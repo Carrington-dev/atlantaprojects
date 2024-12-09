@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php include 'includes/details.php';?>
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Contact | Miami Projects</title>
+  <title>Contact | <?php echo "$company" ?></title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -60,7 +61,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <p>Diepsloot Ext 7, Fourways, Johannesburg 2189</p>
+              <p><?php echo "$address" ?></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -68,7 +69,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-telephone"></i>
               <h3>Call Us</h3>
-              <p>+27 727 494 720</p>
+              <p><?php echo "$phone" ?></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -76,7 +77,7 @@
             <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-envelope"></i>
               <h3>Email Us</h3>
-              <p>info@miamiprojects.co.za</p>
+              <p><?php echo "$email" ?></p>
             </div>
           </div><!-- End Info Item -->
 

@@ -47,7 +47,7 @@
           <div class="carousel-container">
             <h2>Welcome to <span><?php echo "$company" ?></span></h2>
             <p>Everybody enjoys a refreshing swim during the hot summer months. With <?php echo "$company" ?> products and solutions your pool will be ready when you are. The tips below provide the solution to clean, sparkling algae-free water all year round.</p>
-            <a href="about.php" class="btn-get-started">Get Started</a>
+            <a href="#about" class="btn-get-started">Get Started</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -56,7 +56,7 @@
           <div class="carousel-container">
             <h2>Clean Water, Clear Choice</h2>
             <p>Clean Water, Clear Choice, Your Trusted Professional Pool Services We offer unmatched expertise and reliable services.</p>
-            <a href="about.php" class="btn-get-started">Get Started</a>
+            <a href="#about" class="btn-get-started">Get Started</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -65,7 +65,7 @@
           <div class="carousel-container">
             <h2>Maintenance Solutions</h2>
             <p>To ensure that your swimming pool water is always in great condition, we highly recommend following one of our Maintenance Solution Options for a sparkling clean and algae free pool all year round.</p>
-            <a href="about.php" class="btn-get-started">Get Started</a>
+            <a href="#about" class="btn-get-started">Get Started</a>
           </div>
         </div><!-- End Carousel Item -->
 
@@ -259,171 +259,171 @@
        <!-- Portfolio Section -->
        <section id="portfolio" class="portfolio section">
 
-<div class="container">
+        <div class="container">
 
-  <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-    <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-      <li data-filter="*" class="filter-active">All</li>
-      <li data-filter=".filter-app">Clean</li>
-      <li data-filter=".filter-product">Renovate</li>
-      <li data-filter=".filter-branding">Paving</li>
-      <li data-filter=".filter-books">Paint</li>
-    </ul><!-- End Portfolio Filters -->
+            <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Clean</li>
+              <li data-filter=".filter-product">Renovate</li>
+              <li data-filter=".filter-branding">Paving</li>
+              <li data-filter=".filter-books">Paint</li>
+            </ul><!-- End Portfolio Filters -->
 
-    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
 
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>App 1</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 1</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Product 1</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Branding 1</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Books 1</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 2</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Product 2</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Branding 2</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Books 2</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>App 3</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Product 3</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Branding 3</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                <div class="portfolio-content h-100">
+                  <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                    <h4>Books 3</h4>
+                    <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
+                    <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                    <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  </div>
+                </div>
+              </div><!-- End Portfolio Item -->
+
+            </div><!-- End Portfolio Container -->
+
           </div>
+
         </div>
-      </div><!-- End Portfolio Item -->
 
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Product 1</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Branding 1</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Books 1</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>App 2</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Product 2</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Branding 2</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Books 2</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>App 3</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Product 3</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Branding 3</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-      <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
-        <div class="portfolio-content h-100">
-          <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
-          <div class="portfolio-info">
-            <h4>Books 3</h4>
-            <p>Our Pool Service Is Affordable and Convenient. Exceptional Customer Service. We Offer a Wide Range of Pool Services. Contact Us To Help You. Professional Service.</p>
-            <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-            <a href="portfolio-details.php" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-          </div>
-        </div>
-      </div><!-- End Portfolio Item -->
-
-    </div><!-- End Portfolio Container -->
-
-  </div>
-
-</div>
-
-</section><!-- /Portfolio Section -->
+      </section><!-- /Portfolio Section -->
 
     <!-- Clients Section -->
     <section id="clients" class="section clients">
@@ -489,9 +489,9 @@
 
 
       <!-- Contact Section -->
-      <section id="contact" class="contact section">
+    <section id="contact" class="contact section">
 
-<div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
   <div class="row gy-4">
 
@@ -499,7 +499,7 @@
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
         <i class="bi bi-geo-alt"></i>
         <h3>Address</h3>
-        <p>Diepsloot Ext 7, Fourways, Johannesburg 2189</p>
+        <p><?php echo "$address" ?></p>
       </div>
     </div><!-- End Info Item -->
 
@@ -507,7 +507,7 @@
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
         <i class="bi bi-telephone"></i>
         <h3>Call Us</h3>
-        <p>+27 727 494 720</p>
+        <p><?php echo "$phone" ?></p>
       </div>
     </div><!-- End Info Item -->
 
@@ -515,7 +515,7 @@
       <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
         <i class="bi bi-envelope"></i>
         <h3>Email Us</h3>
-        <p>info@miamiprojects.co.za</p>
+        <p><?php echo "$email" ?></p>
       </div>
     </div><!-- End Info Item -->
 
@@ -557,12 +557,6 @@
         </div>
       </form>
     </div><!-- End Contact Form -->
-
-  </div>
-
-</div>
-
-</section><!-- /Contact Section -->
 
   </main>
 
